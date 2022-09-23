@@ -1,0 +1,164 @@
+.side-menu-wrapper {
+    height: 100vh;
+    width: 300px;
+    border-right: 2px solid rgb(233, 233, 233);
+    padding: 25px 50px;
+}
+.dashboard-logo-wrapper span {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(39, 39, 39);
+}
+.dashboard-menu {
+    margin-top: 75px;
+}
+.dashboard-menu-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.menu-wrapper {
+    cursor: pointer;
+    font-weight: 400;
+    /* font-family: 'Lato'; */
+    color: rgb(114, 114, 114);
+    font-size: 17px;
+    margin: 25px 0;
+    transition: .3s;
+}
+.menu-wrapper:hover {
+    color: blueviolet;
+}
+.dashboard-profile-wrapper {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    height: auto;
+    padding: 15px 10px;
+    border: 1px solid rgba(184, 184, 184 , .5);
+    border-radius: 10px;
+}
+.avatar img {
+    border-radius: 5px;
+}
+.content {
+    padding: 50px;
+    height: 100vh;
+    overflow: auto;
+}
+.dashboard-title {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.statistic-box {
+    background-color: rgba(115, 149, 201, 0.616);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.icon-box {
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+}
+.title-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+.statistic-box > .value {
+    /* text-align: center; */
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.data-table {
+    margin: 50px 0;
+    padding: 25px 50px;
+    border: 2px solid rgba(221, 221, 221, 0.5);
+    border-radius: 5px;
+}
+.data-table > .title > div:nth-child(1) {
+    font-size: 25px;
+    font-weight: 600;
+}
+.data-table > .title > .search-box-wrapper {
+    background-color: rgb(238, 238, 238);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: rgb(141, 141, 141);
+}
+.data-table > .title > .search-box-wrapper > input {
+    background-color: transparent;
+}
+.data-table table {margin-top: 50px;overflow: auto; max-height: 500px;}
+@media screen and (max-width: 640px) {
+    .data-table table {width: 600px;margin: 0 20px;}
+}
+table thead tr td {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+}
+
+table thead {
+    background-color: rgb(120, 93, 146);
+}
+table thead tr td {
+    text-align: left;
+    padding: 10px 15px;
+    color: white;
+}
+table tbody tr td {
+    text-align: left;
+    padding: 15px 15px;
+    border-bottom: 1px solid gray;
+}
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+.survey-item-box {
+    border: 1px solid rgb(209, 209, 209);
+    transition: .2s;
+    cursor: pointer;
+}
+.survey-item-box:hover {
+    background-color: blueviolet;
+    color: white;
+}
+.survey-item-box:hover .survey-action {
+    border-top: 1px solid white;
+}
+.survey-item-box:hover .survey-info-wrapper > .description {color: white;}
+.survey-info-wrapper {
+    padding: 20px 30px;
+    padding-top: 10px
+}
+.survey-action {
+    padding: 20px 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.212);
+}
+.survey-info-wrapper > .title {
+    font-weight: 600;
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.survey-info-wrapper > .description {
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+}
+.add-survey-btn {
+    margin: 25px 0;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.survey-title-name span {
+    font-size: 35px;
+    font-weight: 600;
+}

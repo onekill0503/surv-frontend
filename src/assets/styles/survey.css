@@ -1,0 +1,80 @@
+.survey-container {
+    height: 90vh;
+}
+.survey-info {
+    transition: .3s;
+    display: block;
+}
+.survey-input {
+    transition: .3s;
+    display: none;
+    height: 500px;
+    overflow: hidden;
+}
+.survey-input:hover {
+    overflow: auto;
+    transition: .3s;
+}
+.survey-info-title {
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 50px;
+}
+.survey-info-description {
+    height: 500px;
+    width: 80%;
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+.start {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.survey-input-box {
+    width: 100%;
+    /* height: 100px; */
+    border-radius: 5px;
+    border-left: 4px solid rgb(59, 2, 151);
+    padding: 2.5px 25px;
+    margin: 25px 0;
+}
+.survey-input-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+.survey-input-box input[type='checkbox'] {
+    margin-top: 20px;
+}
+.survey-input-box input[type='radio'] {
+    margin-top: 20px;
+}
+.survey-input-box label {
+    display: inline-block;
+    margin-left: 10px;
+}
+.survey-input-box input[type='text'] {
+    width: 70%;
+    margin-top: 20px;
+    transition: .3s;
+    border-bottom: 2px solid rgba(211, 211, 211, 0);
+    color: rgb(139, 139, 139);
+    padding-bottom: 10px;
+}
+.survey-input-box input[type='number'] {
+    width: 70%;
+    margin-top: 20px;
+    transition: .3s;
+    border-bottom: 2px solid rgba(211, 211, 211, 0);
+    color: rgb(139, 139, 139);
+    padding-bottom: 10px;
+}
+.survey-input-box input:focus {
+    border-bottom: 2px solid rgb(211, 211, 211);
+}

@@ -1,0 +1,52 @@
+.home-wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.banner-title {
+    font-size: 65px;
+    font-weight: 800;
+    font-family: 'Lato';
+}
+.banner-text-wrapper {
+    position: relative;
+    width: 50%;
+}
+.banner-description {
+    width: 75%;
+    font-size: 17px;
+}
+.get-started-btn {
+    background-color: #4c197c;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid rgb(76, 25, 124);
+}
+.get-started-btn:hover {
+    color: rgb(76, 25, 124);
+    background-color: transparent;
+    border: 1px solid rgb(76, 25, 124);
+}
+.sign-in-btn {
+    background-color: transparent;
+    color: #4c197c;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid rgb(76, 25, 124);
+}
+.sign-in-btn:hover {
+    color: white;
+    background-color: transparent;
+    background-color: rgb(76, 25, 124);
+    border: 1px solid rgb(76, 25, 124);
+}
+.illustration-wrapper img {
+    width: 60%;
+}
